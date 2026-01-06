@@ -1,4 +1,4 @@
-const Dashboard = ({ members, expenses }) => {
+const DashBoard = ({ members, expenses }) => {
   const totalMembers = members.length;
 
   const totalExpense = expenses.reduce(
@@ -32,4 +32,4 @@ const Dashboard = ({ members, expenses }) => {
   );
 };
 
-export default Dashboard;
+export default DashBoard;
