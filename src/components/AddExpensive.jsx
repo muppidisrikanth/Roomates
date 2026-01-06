@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const AddExpense = ({ members, expenses, setExpenses }) => {
+const AddExpensive = ({ members, expenses, setExpenses }) => {
   const [title, setTitle] = useState("");
   const [amount, setAmount] = useState("");
   const [paidBy, setPaidBy] = useState("");
@@ -101,4 +101,4 @@ const AddExpense = ({ members, expenses, setExpenses }) => {
   );
 };
 
-export default AddExpense;
+export default AddExpensive;
